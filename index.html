@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 02 - Geração Tech 3.0</title>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+        
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        
+        h2 {
+            margin: 10px 0;
+            font-weight: 300;
+        }
+        
+        nav {
+            background-color: #34495e;
+            padding: 15px;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+        }
+        
+        nav li {
+            display: inline;
+        }
+        
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 8px 15px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        
+        nav a:hover {
+            background-color: #2c3e50;
+        }
+        
+        section {
+            min-height: 100vh;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 100px 30px 30px 30px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        
+        section h3 {
+            color: #2c3e50;
+            border-bottom: 3px solid #3498db;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        
+        .media-container {
+            margin: 20px 0;
+            text-align: center;
+        }
+        
+        audio, video {
+            width: 100%;
+            max-width: 600px;
+            margin: 15px 0;
+            border-radius: 5px;
+        }
+        
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+        
+        .intro {
+            font-size: 1.1em;
+            color: #ecf0f1;
+            margin-top: 15px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Atividade 02 - Geração Tech 3.0</h1>
+        <h2>Explorando HTML5 e Elementos Multimídia</h2>
+        <p class="intro">Esta página demonstra o uso de tags semânticas, navegação e elementos multimídia do HTML5.</p>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#inicio">Início</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#multimidia">Multimídia</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </nav>
+
+    <section id="inicio">
+        <h3>Início</h3>
+        <p>Olá! Esta é uma página HTML expandida que demonstra diversos elementos e tags importantes do HTML5. Aqui você encontrará exemplos de estrutura semântica, navegação e conteúdo multimídia.</p>
+        <p>O HTML5 trouxe muitas melhorias para o desenvolvimento web, incluindo novas tags semânticas como <code>&lt;header&gt;</code>, <code>&lt;nav&gt;</code>, <code>&lt;section&gt;</code>, e <code>&lt;footer&gt;</code>, que tornam o código mais organizado e acessível.</p>
+        
+        <h4>Por que HTML5 é importante?</h4>
+        <p>O HTML5 representa uma evolução significativa na linguagem de marcação da web. Lançado oficialmente em 2014, ele trouxe recursos que antes dependiam de plugins externos, como Flash e Silverlight, tornando a web mais acessível e eficiente.</p>
+        
+        <h4>Principais Benefícios:</h4>
+        <ul>
+            <li><strong>Semântica Melhorada:</strong> Tags como <code>&lt;article&gt;</code>, <code>&lt;aside&gt;</code>, e <code>&lt;main&gt;</code> facilitam a compreensão da estrutura do documento.</li>
+            <li><strong>Multimídia Nativa:</strong> Reprodução de áudio e vídeo sem necessidade de plugins.</li>
+            <li><strong>Melhor Acessibilidade:</strong> Facilita a criação de sites acessíveis para pessoas com deficiência.</li>
+            <li><strong>APIs Poderosas:</strong> Geolocalização, armazenamento local, e muito mais.</li>
+            <li><strong>Compatibilidade Mobile:</strong> Projetado pensando em dispositivos móveis desde o início.</li>
+        </ul>
+        
+        <h4>O Futuro do Desenvolvimento Web</h4>
+        <p>Com o HTML5, os desenvolvedores têm à disposição ferramentas poderosas para criar experiências web ricas e interativas. A combinação com CSS3 e JavaScript moderno permite a construção de aplicações web que rivalizam com aplicativos nativos em funcionalidade e desempenho.</p>
+        <p>Esta página é apenas uma amostra do que é possível criar com HTML5. Continue explorando e praticando para dominar esta tecnologia fundamental da web moderna!</p>
+    </section>
+
+    <section id="sobre">
+        <h3>Sobre Este Projeto</h3>
+        <p>Este projeto foi desenvolvido como parte de uma atividade educacional para praticar:</p>
+        <ul>
+            <li>Estruturação semântica de páginas HTML</li>
+            <li>Implementação de navegação interna</li>
+            <li>Incorporação de elementos multimídia</li>
+            <li>Aplicação de estilos inline usando a tag <code>&lt;style&gt;</code></li>
+        </ul>
+        <p>A organização adequada do código HTML é fundamental para criar páginas web acessíveis, eficientes e fáceis de manter.</p>
+        
+        <h4>Objetivos de Aprendizagem</h4>
+        <p>Ao trabalhar neste projeto, você desenvolverá competências essenciais para o desenvolvimento web moderno:</p>
+        <ul>
+            <li><strong>Estruturação de Conteúdo:</strong> Aprender a organizar informações de forma lógica e hierárquica usando tags semânticas apropriadas.</li>
+            <li><strong>Design Responsivo:</strong> Compreender como criar layouts que se adaptam a diferentes tamanhos de tela e dispositivos.</li>
+            <li><strong>Acessibilidade Web:</strong> Implementar boas práticas que tornam seu conteúdo acessível a todos os usuários, incluindo aqueles com necessidades especiais.</li>
+            <li><strong>Otimização de Código:</strong> Escrever HTML limpo, bem formatado e fácil de manter.</li>
+        </ul>
+        
+        <h4>Tecnologias Utilizadas</h4>
+        <p>Este projeto demonstra a integração de várias tecnologias web fundamentais:</p>
+        <ul>
+            <li><strong>HTML5:</strong> A espinha dorsal estrutural da página, fornecendo o conteúdo e a semântica.</li>
+            <li><strong>CSS3:</strong> Responsável pela apresentação visual, incluindo cores, fontes, layouts e animações.</li>
+            <li><strong>Design Patterns:</strong> Implementação de padrões modernos como navegação fixa e scroll suave.</li>
+        </ul>
+        
+    </section>
+
+    <section id="multimidia">
+        <h3>Elementos Multimídia</h3>
+        <p>O HTML5 permite a incorporação nativa de áudio e vídeo sem a necessidade de plugins externos. Veja os exemplos abaixo:</p>
+        
+        <div class="media-container">
+            <h4>Áudio</h4>
+            <p>Exemplo de player de áudio HTML5:</p>
+            <audio controls>
+                <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+                Seu navegador não suporta o elemento de áudio.
+            </audio>
+            <p><small>Áudio de exemplo: SoundHelix (Creative Commons)</small></p>
+        </div>
+        
+        <div class="media-container">
+            <h4>Vídeo</h4>
+            <p>Exemplo de player de vídeo HTML5:</p>
+            <video controls poster="https://via.placeholder.com/600x400/2c3e50/ffffff?text=Video+Player">
+                <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                Seu navegador não suporta o elemento de vídeo.
+            </video>
+            <p><small>Vídeo de exemplo: Big Buck Bunny (Creative Commons)</small></p>
+        </div>
+        
+        <p><strong>Dica:</strong> Os atributos <code>controls</code> adicionam controles de reprodução, enquanto <code>poster</code> define uma imagem de capa para o vídeo.</p>
+    </section>
+
+    <section id="contato">
+        <h3>Contato</h3>
+        <p>Para mais informações sobre HTML5 e desenvolvimento web, você pode consultar os seguintes recursos:</p>
+        <ul>
+            <li><a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML" target="_blank">MDN Web Docs - HTML</a></li>
+            <li><a href="https://www.w3schools.com/html/" target="_blank">W3Schools - HTML Tutorial</a></li>
+            <li><a href="https://html.spec.whatwg.org/" target="_blank">HTML Living Standard</a></li>
+        </ul>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Criado por Eduardo Linhares | Geração Tech 3.0 | Desenvolvido para fins educacionais</p>
+        <p>HTML5 + CSS3</p>
+    </footer>
+</body>
+</html>
